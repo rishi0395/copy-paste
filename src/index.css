@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.prompt-builder {
+  margin: 20px;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.set-prompt-button {
+  background-color: green;
+  color: white;
+}
+
+.clear-prompt-button {
+  background-color: #ff6500;
+  color: white;
+}
+
+.delete-all-button {
+  background-color: red;
+  color: white;
+  margin-top: 10px;
+}
+
+.saved-prompts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prompt-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.prompt-item.active {
+  background-color: green;
+  color: white;
+}
